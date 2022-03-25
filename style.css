@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.arrow {
+    width: 100px;
+    height: 250px;
+    background-color: rgb(226, 225, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+    flex-wrap: wrap;
+   
+}
+
+li {
+    list-style-type: none;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 225, 225);
+}
+img{
+    width: 200px;
+}
+
+ .cinq, .six, .sept, .huits, .neuf, .dix, .lol {
+    display: none;
+}
+
